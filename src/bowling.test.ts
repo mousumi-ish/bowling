@@ -1,4 +1,4 @@
-/*import { Game } from "./bowling";
+import { Game } from "./bowling";
 
 let g: Game = new Game();
 
@@ -50,13 +50,12 @@ describe("Bowling game", () => {
       g.roll(pins);
     }
   }
-});*/
-import {
+});
+/*import {
   calculateFrame,
   totalScore,
   bowlingScore,
-  bowlingScoreCard,
-} from "./bowling";
+  bowlingScoreCard,} from "./bowling";
 
 describe("bowlingScore function", () => {
   test("it should return error message for too few rolls", () => {
@@ -305,4 +304,4 @@ describe("bowlingScoreCard function", () => {
     const scoreCard = bowlingScoreCard(frames);
     expect(scoreCard).toBe("/2X22222/X");
   });
-});
+});*/

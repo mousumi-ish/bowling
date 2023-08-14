@@ -1,4 +1,4 @@
-/*export class Game {
+export class Game {
   private rolls: number[] = Array(21).fill(0);
   private currentRoll: number = 0;
 
@@ -43,7 +43,7 @@
   roll(pins: number): void {
     this.rolls[this.currentRoll++] = pins;
   }
-}*/
+}
 // The game consists of 10 frames. In each frame the player has two rolls to knock down 10 pins.
 // The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
 
@@ -56,7 +56,7 @@
 // In the tenth frame, a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.
 // However no more than three balls can be rolled in the tenth frame
 
-export const calculateFrame = (
+/*export const calculateFrame = (
   rollOne: number,
   rollTwo: number
 ): number | string => {
@@ -144,3 +144,4 @@ export const bowlingScoreCard = (frames: number[][]): string => {
   });
   return scoreCard;
 };
+*/
